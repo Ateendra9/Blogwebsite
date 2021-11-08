@@ -1,0 +1,42 @@
+.contact-content {
+    background-color: white;
+    display: flex;
+    height: 80vh;
+    margin-top: 25px;
+    padding: 5px;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: inherit;
+    opacity: 0.10;
+    z-index: -1;
+}
+
+.contabt-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.abc {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.pqr {
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vw;
+    /* padding-top: 5px; */
+    border: 2.5px solid black;
+}

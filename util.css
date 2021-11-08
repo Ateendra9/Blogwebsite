@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --main-bg-color: #124380;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Baloo 2', cursive;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 0 12px;
+    font-family: var(--font1);
+}
+
+.btn {
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 13px;
+    margin: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: black;
+    background-color: lightskyblue;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.my-2 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.form-box input,
+textarea {
+    width: 44vw;
+    padding: 0px 6px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.contabt-form {
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.mx-1 {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pqr {
+    /* border-radius: 0px; */
+    height: 20vh;
+    width: 11vw;
+    /* padding-top: 5px; */
+    border: 2.5px solid black;
+}
+
+.social {
+    display: flex;
+    /*align-items: flex-end;
+     align-content: flex-end;
+    cursor: pointer;
+    justify-content: ; */
+    padding-right: 25px;
+    margin-top: 10px;
+    align-items: flex-end;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    /* float: right; */
+}
